@@ -7,7 +7,8 @@ public class E03SalaryExample {
 	public static void main(String[] args) {
 		int weeklySalary = 500;
 		int numWeeks = 6;
-		int totalPay;
+		int totalPay = numWeeks * weeklySalary;
+		System.out.println(totalPay);
 
 	}
 }

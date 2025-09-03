@@ -5,6 +5,6 @@ public class E05CalculationErrorPrint {
 	//the result of the computation
 	public static void main(String[] args) {
 		System.out.println("570 * 23 = ");
-		System.out.println("570 * 23");
+		System.out.println(570 * 23);
 	}
 }

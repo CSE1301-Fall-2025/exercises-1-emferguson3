@@ -10,6 +10,8 @@ public class E06CalculateBillTotal {
 	//92.50
 	public static void main(String[] args) {
 		System.out.println("Bill total:");
+		System.out.println("89.5+14.75+45.12+92.5 = ");
+		System.out.println(89.5+14.75+45.12+92.5);
 	}
 }
 
