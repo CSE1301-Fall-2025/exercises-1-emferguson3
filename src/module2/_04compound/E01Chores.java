@@ -6,7 +6,7 @@ public class E01Chores {
 	//What combination is necessary for it to print "You can go out"?
 	public static void main(String[] args) {
 		boolean cleanedRoom = true;
-		boolean didHomework = false;
+		boolean didHomework = true;
 		if (cleanedRoom && didHomework) {
 			System.out.println("You can go out");
 		}

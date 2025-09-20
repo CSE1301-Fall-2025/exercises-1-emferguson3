@@ -5,8 +5,9 @@ public class E02LoopErrors {
 	//but there are errors. Find them and fix them!
 	public static void main(String[] args) {
 		int count = 1;
-		while (count < 8) {
+		while (count <= 8) {
 			System.out.println(count);
+			count++;
 		}
 	}
 }

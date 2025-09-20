@@ -11,10 +11,13 @@ public class E04PizzaCalculatorInput {
         Scanner scan = new Scanner(System.in);
         pizzaSlices = scan.nextInt();
         numPeople = scan.nextInt();
+        if(pizzaSlices<=0 || numPeople<=0){
+            System.out.println("Invalid Input");
+        } else {
         slicesPerPerson = pizzaSlices / numPeople;
         leftoverSlices = pizzaSlices % numPeople;
         System.out.println(slicesPerPerson);
-        System.out.println(leftoverSlices);
+        System.out.println(leftoverSlices);}
     }
 
 }

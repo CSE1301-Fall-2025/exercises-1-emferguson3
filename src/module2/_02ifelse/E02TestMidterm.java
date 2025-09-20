@@ -14,7 +14,7 @@ public class E02TestMidterm {
 		if (passedExam) {
 			System.out.println("Good job studying!");
 		}
-		if (!passedExam) {
+		else {
 			System.out.println("Study harder next time.");
 		}
 	}

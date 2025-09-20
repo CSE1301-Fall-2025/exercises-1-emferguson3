@@ -7,8 +7,9 @@ public class E01Trace {
     public static void main(String[] args) {
         int var1 = 3;
         int var2 = 2;
-
+System.out.println("var1: " + var1 + " var2: " + var2);
         while ((var2 != 0) && ((var1 / var2) >= 0)) {
+            System.out.println("var1: " + var1 + " var2: " + var2);
             var1 = var1 + 1;
             var2 = var2 - 1;
         }

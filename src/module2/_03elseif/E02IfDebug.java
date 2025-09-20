@@ -11,13 +11,13 @@ public class E02IfDebug {
 		if (score >= 90) {
 			grade = "A";
 		}
-		if (score >= 80) {
+		else if (score >= 80) {
 			grade = "B";
 		}
-		if (score >= 70) {
+		else if (score >= 70) {
 			grade = "C";
 		}
-		if (score >= 60) {
+		else if (score >= 60) {
 			grade = "D";
 		}
 		else {
